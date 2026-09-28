@@ -1,5 +1,13 @@
-marks = [85, 90, 78, 92, 88]
-
-print(marks)
-print(marks[0])
-print(marks[-1])
+arr = [12,34,56,78,90]
+arr.extend([1,2])
+print(arr)
+arr.sort()
+print(arr)
+print(len(arr))
+arr.insert(0,14)
+print(arr)
+print(arr.count(12))
+print(arr.index(56))
+arr.sort(reverse=True)
+print(arr)
+print(14 not in arr)
