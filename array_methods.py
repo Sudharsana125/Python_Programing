@@ -27,4 +27,25 @@ students = [
     ["Priya", 92],
     ["Rahul", 78]
 ]
-print(students)
+print(students[1][1])
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+matrix[1][1] = 50
+matrix[1][2] = 70
+print(matrix)
+
+
+numbers = [1, 2, 3, 4, 5]
+squares = [number ** 2 for number in numbers]
+print(squares)
+
+numbers = [1, 2, 3, 4, 5]
+squares = []
+for number in numbers:
+    squares.append(number ** 2)
+print(squares)
+
