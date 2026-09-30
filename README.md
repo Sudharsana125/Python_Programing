@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./assets/python-logo.png" width="50" alt="Python">
+  <img src="https://www.python.org/static/community_logos/python-logo-generic.svg" width="90">
 </p>
