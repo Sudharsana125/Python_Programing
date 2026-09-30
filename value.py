@@ -1,5 +1,20 @@
-rows = int(input("Enter number of rows: "))
+numb = list(map(int, input("Enter numbers: ").split()))
+total = 0
+for i in numb:
+    if i % 2 == 0:
+        total = total+i
+print(total)
 
+n = int(input("Enter the num:"))
+for i in range(0,21):
+    print(n*i)
+
+n = int(input("Enter the ending number: "))
+
+for i in range(1, n + 1, 2):
+    print(i)
+
+rows = int(input("Enter number of rows: "))
 for i in range(rows, 0, -1):
     for j in range(i):
         print("*", end=" ")
