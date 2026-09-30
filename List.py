@@ -1,21 +1,29 @@
 list = [1,2,3,4,5,6,7]
 list.append(30)
 print(list)
+
 list.remove(30)
 print(list)
+
 del list[1]
 print(list)
+
 list.pop(3)
 print(list)
+
 list.extend([35,45])
 print(list)
+
 list.reverse()
 print(list)
+
 print(1 in list)
 print(18 in list)
+
 print(list[:])
 print(list[0:6:2])
 print(list[::2])
 print(list[::-1])
+
 b.copy(list)
 print(list)

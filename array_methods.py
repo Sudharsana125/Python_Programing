@@ -49,3 +49,4 @@ for number in numbers:
     squares.append(number ** 2)
 print(squares)
 
+
